@@ -1,0 +1,4 @@
+<launch>
+	<node name="RECORDING" pkg="robot"  type="HiPoppy.py"  output="screen"/>
+</launch>
+

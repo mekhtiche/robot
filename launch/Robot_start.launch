@@ -1,0 +1,12 @@
+<launch>
+
+	<node name="Word_listener" pkg="robot"  type="word_listener.py"  output="screen"/>
+	<node name="Robot_driver" pkg="robot"  type="Robot_driver.py"  output="screen"/>
+	<node name="Finger_driver" pkg="robot" type="Servo_driver.py" output="screen"/>
+<!-- set a private parameter for the node -->
+<!--	<node name="CAMERA" pkg="usb_cam" type="usb_cam_node" output="screen"/>       -->
+<!--	<node name="VIEWER" pkg="image_view" type="image_view" ns="usb_cam" output="screen">     -->
+<!--		<remap from="image" to="/CAMERA/image_raw" />     -->
+<!--	</node>      -->
+
+</launch>

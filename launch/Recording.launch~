@@ -1,0 +1,4 @@
+<launch>
+	<node name="RECORDING" pkg="beginner_tutorials"  type="HiPoppy.py"  output="screen"/>
+</launch>
+
