@@ -51,15 +51,15 @@ Installation:
     
     sudo apt-get install python-tk
 
-now use git clone to download the package:
+  now use git clone to download the package:
 
-  $ cd catkin_ws/src
-  
-  $ git clone https://github.com/mekhtiche/robot.git
-  
-  $ cd ..
-  
-  $ catkin_make
+    $ cd catkin_ws/src
+
+    $ git clone https://github.com/mekhtiche/robot.git
+
+    $ cd ..
+
+    $ catkin_make
   
   source the work space
   
@@ -68,23 +68,23 @@ now use git clone to download the package:
     in the end of the file add "source ~/catkin_ws/devel/setup.bash"
     
     
-To launch the robot:
+  To launch the robot:
 
-  $ roslaunch robot Robot_start.launch
+    $ roslaunch robot Robot_start.launch
 
-To record sign:
+  To record sign:
 
-  $ roslaunch robot Recording.launch
-  
-  
-if you have permission denied error you need to change the permission of Servo_driver.py and finger.py
-  
-  $ cd catkin_ws/src/robot/driver
-  
-  $ chmod 775 Servo_driver.py 
-  
-  $ cd catkin_ws/src/robot/recording
-  
-  $ chmod 775 finger.py 
+    $ roslaunch robot Recording.launch
+
+
+  if you have permission denied error you need to change the permission of Servo_driver.py and finger.py
+
+    $ cd catkin_ws/src/robot/driver
+
+    $ chmod 775 Servo_driver.py 
+
+    $ cd catkin_ws/src/robot/recording
+
+    $ chmod 775 finger.py 
 
 
