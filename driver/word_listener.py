@@ -4,9 +4,9 @@ import json
 import rospy
 import time
 from std_msgs.msg import String
-from beginner_tutorials.msg import motorSet
-from beginner_tutorials.msg import motorStat
-from beginner_tutorials.msg import servoSet
+from robot.msg import motorSet
+from robot.msg import motorStat
+from robot.msg import servoSet
 
 
 pub = dict()

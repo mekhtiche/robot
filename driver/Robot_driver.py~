@@ -3,9 +3,9 @@
 import thread
 import time
 import rospy
-from robot.msg import motorStat
-from robot.msg import motorStatList
-from robot.msg import motorSet
+from beginner_tutorials.msg import motorStat
+from beginner_tutorials.msg import motorStatList
+from beginner_tutorials.msg import motorSet
 from std_msgs.msg import String
 import pypot.robot
 print 'succiful import'

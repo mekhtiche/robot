@@ -2,7 +2,7 @@
 
 
 import rospy
-from robot.msg import servoSet
+from beginner_tutorials.msg import servoSet
 from servo.Adafruit_PWM_Servo_Driver import PWM
 
 hand = ['Right', 'Left']

@@ -20,7 +20,7 @@ def getMotorInfo(data, name):
 
 def callback(data):
     try:
-        with open("/home/odroid/catkin_ws/src/beginner_tutorials/Robot_interface/data_base/"+ data.data + ".json", "r") as sign:
+        with open("/home/odroid/catkin_ws/src/robot/recording/data_base/"+ data.data + ".json", "r") as sign:
             movement = json.load(sign)
 
         names = movement["actors_NAME"]
